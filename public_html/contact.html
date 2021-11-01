@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<!--
+Template Name: Impel Car Dealer Responsive HTML Template
+Version: 1.0.0
+Author: Kamleshyadav
+Website: http://himanshusofttech.com/
+Purchase: http://themeforest.net/user/kamleshyadav
+-->
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<!-- Begin Head -->
+
+<head>
+    <title>BiBakım</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="description" content="Impel">
+    <meta name="keywords" content="">
+    <meta name="author" content="hsoft">
+    <meta name="MobileOptimized" content="320">
+    <!--Srart Style -->
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Favicon Link -->
+    <link rel="shortcut icon" type="image/png" href="images/favicon.png">
+</head>
+
+<body>
+    <!------ Header Start ------>
+    <div class="impl_header_wrapper">
+        <div class="impl_logo">
+            <a href="index.html"><img src="images/logo.png" alt="Logo" class="img-fluid"></a>
+        </div>
+        <div class="impl_top_header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="impl_top_info">
+                            <ul class="impl_header_social">
+                                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                            </ul>
+                            <p class="impl_header_time"><i aria-hidden="true"></i><span></span></p>
+                            <ul class="impl_header_icons">
+                                <li class="impl_search"><span><i class="fa fa-search" aria-hidden="true"></i></span></li>
+                                    <!--shopping cart box-->
+                                    <div class="cart-box">
+                                        <div class="popup-container">
+                                            <div class="cart-entry">
+                                                <a href="#" class="image">
+												<img src="http://via.placeholder.com/70x60" alt="">
+											</a>
+                                                <div class="content">
+                                                    <a href="#" class="title">Serpent</a>
+                                                    <p class="quantity">Quantity: 1</p>
+                                                    <span class="price">$4500.00</span>
+                                                </div>
+                                                <div class="button-x">
+                                                    <i class="fa fa-times-circle" aria-hidden="true"></i>
+                                                </div>
+                                            </div>
+                                            <div class="cart-entry">
+                                                <a href="#" class="image">
+												<img src="http://via.placeholder.com/70x60" alt="">
+											</a>
+                                                <div class="content">
+                                                    <a href="#" class="title">Empire</a>
+                                                    <p class="quantity">Quantity: 1</p>
+                                                    <span class="price">$900.00</span>
+                                                </div>
+                                                <div class="button-x">
+                                                    <i class="fa fa-times-circle" aria-hidden="true"></i>
+                                                </div>
+                                            </div>
+                                            <div class="summary">
+                                                <div class="subtotal">Sub Total</div>
+                                                <div class="price-s">$5100.0</div>
+                                            </div>
+                                            <div class="cart-buttons">
+                                                <a href="checkout.html" class="btn impl_btn">View Cart</a>
+                                                <a href="checkout.html" class="btn impl_btn">Checkout</a>
+                                                <div class="clear"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li><a href="#signin" data-toggle="modal"><i class="fa fa-sign-in" aria-hidden="true"></i></a></li>
+                            </ul>
+                            <div class="impl_search_overlay">
+                                <div class="impl_search_area">
+                                    <div class="srch_inner">
+                                        <form action="#">
+                                            <input type="text" placeholder="Search here... ">
+                                            <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                                        </form>
+                                        <div class="srch_close_btn">
+                                            <span class="srch_close_btn_icon"><i class="fa fa-times" aria-hidden="true"></i></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--sign-in form-->
+        <div class="modal" id="signin">
+            <div class="impl_signin">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">×</span>
+			</button>
+                <div class="impl_sign_form">
+                    <h1>Giriş Yap</h1>
+                    <div class="form-group">
+                        <input type="text" placeholder="Email" class="form-control">
+                        <span class="form_icon">
+						<i class="fa fa-envelope" aria-hidden="true"></i>
+					</span>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" placeholder="Şifre" class="form-control">
+                        <span class="form_icon">
+					<i class="fa fa-lock" aria-hidden="true"></i>
+					</span>
+                    </div>
+                    <div class="forget_password">
+                        <div class="remember_checkbox">
+                            <label>Beni Hatırla
+							<input type="checkbox">
+							<span class="checkmark"></span>
+						</label>
+                        </div>
+                        <a href="#">Şifremi Unuttum</a>
+                    </div>
+                    <a href="#" class="impl_btn">Giriş</a>
+                    <p>Bir Hesaba Sahip Değilmisin ?<a href="#signup" data-toggle="modal" class="impl_modal">Kayıt Ol</a></p>
+                </div>
+                <div class="impl_sign_img">
+                  <h2>BiBakım'a Hoşgeldiniz</h2>
+                  <p>Aradığın Hizmet İçin Hemen Giriş Yap</p>
+                    <div class="impl_sign_bottom">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--sign-up form-->
+        <div class="modal" id="signup">
+            <div class="impl_signin">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+				<span aria-hidden="true">×</span>
+			</button>
+                <div class="impl_sign_form">
+                    <h1>Kayıt Ol</h1>
+                    <div class="form-group">
+                        <input type="text" placeholder="Username" class="form-control">
+                        <span class="form_icon">
+						<i class="fa fa-user" aria-hidden="true"></i>
+					</span>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" placeholder="Email" class="form-control">
+                        <span class="form_icon">
+						<i class="fa fa-envelope" aria-hidden="true"></i>
+					</span>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" placeholder="Password" class="form-control">
+                        <span class="form_icon">
+					<i class="fa fa-lock" aria-hidden="true"></i>
+					</span>
+                    </div>
+                    <div class="form-group">
+                        <input type="password" placeholder="Confirm Password" class="form-control">
+                        <span class="form_icon">
+					<i class="fa fa-lock" aria-hidden="true"></i>
+					</span>
+                    </div>
+                    <a href="#" class="impl_btn">Giriş Yap</a>
+                    <p>Bir Hesaba Sahip Değilmisin ?<a href="#signup" data-toggle="modal">Kayıt Ol</a></p>
+                </div>
+                <div class="impl_sign_img">
+                  <h2>BiBakım'a Hoşgeldiniz</h2>
+                  <p>Aradığın Hizmet İçin Hemen Giriş Yap</p>
+                    <div class="impl_sign_bottom">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--menu start-->
+        <div class="impl_menu_wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <button class="impl_menu_btn">
+			<i class="fa fa-car" aria-hidden="true"></i>
+			<i class="fa fa-bars" aria-hidden="true"></i>
+		</button>
+                        <div class="impl_menu_inner">
+                            <div class="impl_logo_responsive">
+                                <a href="index.html"><img src="images/logo1.png" alt="Logo" class="img-fluid"></a>
+                            </div>
+                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSeLKJlZxSYQLXu4nes-usQOy07E5UzAYTqLE88k0ueLV5DGiQ/viewform" target="_blank" class="impl_btn">Randevu Oluştur</a>
+                            <div class="impl_menu">
+                                <nav>
+                                    <div class="menu_cross">
+                                        <i class="fa fa-times" aria-hidden="true"></i>
+                                    </div>
+                                    <ul>
+                                        <li class="dropdown"><a href="index.html">Ana Sayfa</a>
+
+                                        </li>
+                                        <li><a href="about.html">Hakkımızda</a></li>
+                                        <li class="dropdown"><a href="error.html">Servisler</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="purchase_new.html">Kaporta Boya</a></li>
+                                                <li><a href="purchase_used.html">Elektrik</a></li>
+                                                <li><a href="purchase_new_single.html">Tuning</a></li>
+                                                <li><a href="purchase_old_single.html">Mekanik</a></li>
+                                                <li><a href="purchase_old_single.html">Lastik</a></li>
+                                                <li><a href="purchase_old_single.html">Genel Bakım</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="error.html">Hizmetler</a></li>
+                                        <li class="dropdown"><a href="error.html">blog</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="error.html">blog left sidebar</a></li>
+                                                <li><a href="error.html">blog right sidebar</a></li>
+                                                <li><a href="error.html">blog single</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="dropdown"><a href="error.html">Sayfalar</a>
+                                            <ul class="sub-menu">
+                                                <li><a href="error.html">Sell page</a></li>
+                                                <li><a href="error.html">compare page</a></li>
+                                                <li><a href="error.html">checkout page</a></li>
+                                                <li><a href="error.html">404 page</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="contact.html"  class="active">İletişim</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------ Breadcrumbs Start ------>
+    <div class="impl_bread_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <h1>İletİşİm</h1>
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Ana Sayfa</a></li>
+                        <li class="breadcrumb-item active">İletişim</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------ Contact Wrapper Start ------>
+    <div class="impl_contact_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-md-12 offset-lg-1">
+                    <div class="impl_con_form">
+                        <div class="contact_map">
+                            <div id="contact_map"></div>
+                        </div>
+                        <div class="col-lg-12 col-md-12">
+                            <h1>İletİşİme Geç</h1>
+                        </div>
+                        <form>
+                            <div class="col-lg-12 col-md-12">
+                                <div class="form-group">
+                                    <input type="text" name="first_name" class="form-control require" placeholder="İsminiz">
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-md-12">
+                                <div class="form-group">
+                                    <input type="text" name="email" class="form-control require" placeholder="E-mail Adresiniz" data-valid="email" data-error="Email should be valid.">
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-md-12">
+                                <div class="form-group">
+                                    <input type="text" name="subject" class="form-control" placeholder="Konu">
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-md-12">
+                                <div class="form-group">
+                                    <textarea name="message" class="form-control" placeholder="Mesajınız"></textarea>
+                                </div>
+                            </div>
+                            <div class="response"></div>
+                            <div class="col-lg-12 col-md-12">
+                                <input type="hidden" name="form_type" value="contact">
+                                <button type="button" class="impl_btn submitForm">Gönder</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12">
+                    <div class="impl_contact_info">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4">
+                                <div class="impl_contact_box">
+                                    <div class="impl_con_data">
+                                        <i class="fa fa-phone" aria-hidden="true"></i>
+                                        <h2>Telefon</h2>
+                                          <p>+90-537-664-2567</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4">
+                                <div class="impl_contact_box">
+                                    <div class="impl_con_data">
+                                        <i class="fa fa-home" aria-hidden="true"></i>
+                                        <h2>Adres</h2>
+                                        <p>34903 Güzelyalı Mahallesi,Bağdat Caddesi,No:16/1<br>İstanbul,Türkiye</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-4">
+                                <div class="impl_contact_box">
+                                    <div class="impl_con_data">
+                                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                                        <h2>E - mail</h2>
+                                          <a href="#">bibakim@gmail.com</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------ Footer Section Start ------>
+    <div class="impl_footer_wrapper">
+        <div class="impl_social_wrapper">
+            <ul>
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+        <div class="impl_foo_wrapper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="impl_foo_box footer_abt_text">
+                            <a href="#"><img src="images/logo.png" alt=""></a>
+                            <p>Tanıdıkla Değil BiBakım'la Bul</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="impl_foo_box">
+                            <h1 class="impl_foo_title">Hizmetlerimiz</h1>
+                            <ul>
+                              <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Yağ değişimi</a></li>
+                              <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Yakıt tasarrufu</a></li>
+                              <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> ABS Fren sistemi</a></li>
+                              <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Akü</a></li>
+                              <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Uzun yolculuklar için ipuçları</a></li>
+                              <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Hava Basıncı</a></li>
+                              <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i> Tekerlek değişimi</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="impl_foo_box">
+                            <h1 class="impl_foo_title">İletişim Bilgilerimiz</h1>
+                            <ul>
+                                <li>
+                                    <div class="impl_foo_icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                                    <div class="impl_foo_text">
+                                      <p>+90-537-664-2567</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="impl_foo_icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                                    <div class="impl_foo_text">
+                                        <p>34903 Güzelyalı Mahallesi,Bağdat Caddesi,No:16/1<br>İstanbul,Türkiye</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="impl_foo_icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                                    <div class="impl_foo_text">
+                                        <a href="#">bibakim@gmail.com</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="impl_foo_box">
+                            <h1 class="impl_foo_title">Abone Ol</h1>
+                            <p>En son güncellemeler ve değişiklikler için abone olun.</p>
+                            <div class="impl_footer_subs">
+                                <input type="text" class="form-control" placeholder="Enter Your Email">
+                                <button class="foo_subs_btn"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----Bottom Footer Start---->
+    <div class="impl_btm_footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <p class="impl_copyright">Copyright &copy; 2020 Bi Bakım. Tüm Hakları Saklıdır.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+	<!---- Go To Top---->
+	<span class="gotop"><img src="images/goto.png" alt=""></span>
+    <!--Main js file Style-->
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/popper.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/contact_form.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+    <!--Main js file End-->
+    <!--map-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDNdePPJKYq0ptBV_AFi_4RnmUtMa1ZLFg&libraries=places">
+    </script>
+    <script>
+        $(document).ready(function() {
+            var myCenter = new google.maps.LatLng(51.508530, -0.076132);
+
+            function initialize() {
+                var mapProp = {
+                    center: myCenter,
+                    zoom: 8,
+                    scrollwheel: false,
+                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                };
+                var map = new google.maps.Map(document.getElementById("contact_map"), mapProp);
+                var icon = {
+                    url: 'images/map_pin.png'
+                };
+                var marker = new google.maps.Marker({
+                    position: myCenter,
+                    map: map,
+                    title: 'Impel Car Dealer Template',
+                    icon: icon
+                });
+                marker.setMap(map);
+                var infowindow = new google.maps.InfoWindow({
+                    content: "<span> Impel Car Dealer Template </span>"
+                });
+                google.maps.event.addListener(marker, 'click', function() {
+                    infowindow.open(map, marker);
+                });
+            }
+            google.maps.event.addDomListener(window, 'load', initialize);
+        });
+    </script>
+</body>
+
+</html>
